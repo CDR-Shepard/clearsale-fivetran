@@ -1,8 +1,8 @@
  function connect(crm) {
     if (crm === 'salesforce') {
-        window.open('https://fivetran.com/connect-card/setup?redirect_uri=https://dmforce.com/success&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkIjp7ImxvZ2luIjp0cnVlLCJ1c2VyIjoiY2hlbWljYWxseV9wcm9mbGlnYWN5IiwiYWNjb3VudCI6InN3YXBwaW5nX3R1Y2tlZCIsImdyb3VwIjoidHJhbnNmZXJyZWRfaW5kZWxpYmxlIiwiY29ubmVjdG9yIjoidHVycGVudGluZV9yb2NrYmFuZCIsIm1ldGhvZCI6IlBiZkNhcmQifSwiaWF0IjoxNzE0NTkzMjc2fQ.f5hlvIU13ryr4UUckGkXQthfHP06pqk5ZoxiLl4Ag5A&hide_setup_guide=true', '_blank');
+        window.open('https://fivetran.com/connect-card/setup?redirect_uri=https://dmforce.com/success&auth=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJkIjp7ImxvZ2luIjp0cnVlLCJ1c2VyIjoiY2hlbWljYWxseV9wcm9mbGlnYWN5IiwiYWNjb3VudCI6InN3YXBwaW5nX3R1Y2tlZCIsImdyb3VwIjoidHJhbnNmZXJyZWRfaW5kZWxpYmxlIiwiY29ubmVjdG9yIjoic3RyYXRhZ2VtX2ZhYmxlIiwibWV0aG9kIjoiUGJmQ2FyZCJ9LCJpYXQiOjE3MTQ2NzMzNDN9.TN-ExDlE1ouWmtfYYelndfL8chHH91Mm1LI_A9t2-bg&hide_setup_guide=true', '_blank');
     } else {
         console.log('Connect function for ' + crm + ' is not implemented yet.');
     }
 }
-// v 0.02 05-01
+// v 0.03 05-02
